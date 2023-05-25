@@ -1,0 +1,47 @@
+.nav-picture{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.group-buttons{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  
+}
+.group-buttons p{
+  font-size: 25px;
+}
+.group-buttons button{
+  border-radius: 10px;
+  margin-left: 15px;
+}
+.create-group {
+  background-color: white;
+  color: black;
+  margin: auto;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.join-group {
+  font-size: 20px;
+  background-color: #00A6ED;
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+button {
+  border: none;
+  flex-basis: 50%;
+}
+button:hover {
+  background-color: #8bbfee;
+  color: #fff;
+  display: inline;
+}
+
+

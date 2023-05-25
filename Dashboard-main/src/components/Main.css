@@ -1,0 +1,23 @@
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  margin-top: 103px;
+  /* background-color: aqua; */
+  position: absolute;
+  right: 0;
+  left: 0;
+  
+}
+
+.left-navigation {
+  margin-left: 10px;
+}
+.right-reminder {
+  margin-left: 30%;
+}
+.center-groupbuttons{
+  margin-left: 600px;
+  justify-content: center;
+}

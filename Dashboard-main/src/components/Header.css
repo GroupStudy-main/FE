@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  align-items: center;
+  /* background-color: #333; */
+  position: fixed;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+}
+.user-profile {
+  float: right;
+  margin-top: 5px;
+}
+
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 24px;
+}
+
+.Page-name h1 {
+  margin: 30px 60px;
+  color: #2383A2;
+
+}
+.Logo-image img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: 0;
+  position: absolute;
+  top: 24px;
+}
+
+.Login-page .Login-button{
+  width: 152px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #00A6ED;
+  position: absolute;
+  right: 80px;
+  bottom: 24px;
+}
+
+.Register-page .Register-button{
+  width: 152px;
+  height: 40px;
+  border-radius: 15px;
+  position: absolute;
+  right: 240px;
+  bottom: 24px;
+  background-color: #fff;
+}
+
+.Register-page .Register-button button:hover {
+  background-color: #8bbfee;
+  color: #fff;
+  display: block;
+}
+

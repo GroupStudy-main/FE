@@ -1,0 +1,51 @@
+
+.navigation ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  
+  width: 150px;
+  position: fixed;
+  top: 103px;
+  bottom: 0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+ 
+  padding: 10px; 
+  
+}
+
+.navigation ul li{
+  margin-top: 30px;
+  text-align: center;
+  line-height: 40px;
+  height: auto;
+  display: block;
+  width: auto;
+  
+}
+.navigation ul li  p {
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  color: #2383A2;
+  
+}
+.navigation ul li a{
+  font-size: 35px;
+  color: #bb86fc;
+}
+
+
+
+.navigation ul li:hover a {
+  background-color: #8bbfee;
+  
+  width: auto;
+  margin: 20px  ;
+  display: block;
+  color: #fff;
+  border-radius: 15%;
+  
+}
